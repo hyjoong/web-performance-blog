@@ -48,3 +48,21 @@ Article 컴포넌트에 있는 removeSpecialCharacter함수의 문제 발견
 step2 적용 후 Lighthouse
 
 <img src="https://images.velog.io/images/hyunjoong/post/7de4d7f0-4e50-475f-8019-4a60d9d14295/image.png" width="70%" height="70%">
+
+<br>
+<br>
+<br>
+
+### ✔step3. Code Splitting
+
+불 필요한 코드 or 중복되는 코드가 없이 적절한 사이즈의 코드가 적절한 타이밍에 로드되게 하자
+
+React.lazy로 동적 import를 사용해서 컴포넌트를 렌더링
+
+#### 참고
+
+https://ko.reactjs.org/docs/code-splitting.html
+
+step3 적용 후 Lighthouse
+
+<img src="https://images.velog.io/images/hyunjoong/post/345f34e9-487c-4cba-a638-437ab473f57b/image.png" width="70%" height="70%">
