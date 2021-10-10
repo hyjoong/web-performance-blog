@@ -4,7 +4,7 @@
 
 ## Lighthouse (개선 전)
 
- <img src="https://images.velog.io/images/hyunjoong/post/78e0b4db-695e-4d96-85c9-6c3649af46bb/image.png" width="50%" height="50%">
+ <img src="https://images.velog.io/images/hyunjoong/post/78e0b4db-695e-4d96-85c9-6c3649af46bb/image.png" width="70%" height="70%">
 
 ## ✅ 개선 작업 목록
 
@@ -30,4 +30,21 @@ Opportunities에서 경고한 image파일의 속성을 확인
 
 step1 적용 후 Lighthouse
 
-  <img src=" https://images.velog.io/images/hyunjoong/post/9848d167-39ac-4460-8e6e-591a2191eb24/image.png" width="50%" height="50%">
+  <img src="https://images.velog.io/images/hyunjoong/post/9848d167-39ac-4460-8e6e-591a2191eb24/image.png" width="70%" height="70%">
+
+<br>
+<br>
+<br>
+
+### ✔step2. bottleneck코드 최적화
+
+Article 컴포넌트에 있는 removeSpecialCharacter함수의 문제 발견
+
+<img src="https://images.velog.io/images/hyunjoong/post/d9f3ebe1-8806-4f1b-afc2-f23562ae9d09/image.png" width="100%" height="100%">
+ 
+ 
+ 2중 for문을 코드를 replace함수를 사용해서 변경
+
+step2 적용 후 Lighthouse
+
+<img src="https://images.velog.io/images/hyunjoong/post/7de4d7f0-4e50-475f-8019-4a60d9d14295/image.png" width="70%" height="70%">

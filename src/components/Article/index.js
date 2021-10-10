@@ -17,36 +17,39 @@ function getParametersForUnsplash({ width, height, quality, format }) {
  * (Markdown으로 된 문자열의 특수문자를 제거하기 위함)
  * */
 function removeSpecialCharacter(str) {
-  const removeCharacters = [
-    "#",
-    "_",
-    "*",
-    "~",
-    "&",
-    ";",
-    "!",
-    "[",
-    "]",
-    "`",
-    ">",
-    "\n",
-    "=",
-    "-",
-  ];
-  let _str = str;
-  let i = 0,
-    j = 0;
+  // const removeCharacters = [
+  //   "#",
+  //   "_",
+  //   "*",
+  //   "~",
+  //   "&",
+  //   ";",
+  //   "!",
+  //   "[",
+  //   "]",
+  //   "`",
+  //   ">",
+  //   "\n",
+  //   "=",
+  //   "-",
+  // ];
+  // let _str = str;
+  // let i = 0,
+  //   j = 0;
 
-  for (i = 0; i < removeCharacters.length; i++) {
-    j = 0;
-    while (j < _str.length) {
-      if (_str[j] === removeCharacters[i]) {
-        _str = _str.substring(0, j).concat(_str.substring(j + 1));
-        continue;
-      }
-      j++;
-    }
-  }
+  // for (i = 0; i < removeCharacters.length; i++) {
+  //   j = 0;
+  //   while (j < _str.length) {
+  //     if (_str[j] === removeCharacters[i]) {
+  //       _str = _str.substring(0, j).concat(_str.substring(j + 1));
+  //       continue;
+  //     }
+  //     j++;
+  //   }
+  // }
+
+  let _str = str.substring(0, 300);
+  _str.replace(/[\#\_\*\~\&\;\!\[\]\`\>\=\-\`\n]/g, ""); // '/' 를 사용해 정규식 사용 'g'는 정규식을 만족하는 모든 패턴을 찾아서 변경하기 위해
 
   return _str;
 }
