@@ -6,6 +6,10 @@
 
  <img src="https://images.velog.io/images/hyunjoong/post/78e0b4db-695e-4d96-85c9-6c3649af46bb/image.png" width="70%" height="70%">
 
+## 문제점
+
+ <img src="https://images.velog.io/images/hyunjoong/post/8ac0c3d0-5bce-4e20-9a77-21e593627ae7/image.png" width="70%" height="70%">
+
 ## ✅ 개선 작업 목록
 
 ### 로딩성능 최적화
@@ -66,3 +70,15 @@ https://ko.reactjs.org/docs/code-splitting.html
 step3 적용 후 Lighthouse
 
 <img src="https://images.velog.io/images/hyunjoong/post/345f34e9-487c-4cba-a638-437ab473f57b/image.png" width="70%" height="70%">
+
+<br>
+<br>
+<br>
+
+### ✔step4. 텍스트 압축 (GZIP)
+
+
+step4 적용 후 Lighthouse 
+
+
+<img src="https://images.velog.io/images/hyunjoong/post/e7879117-db64-4eac-adb0-2816e74ae145/image.png" width="70%" height="70%">
